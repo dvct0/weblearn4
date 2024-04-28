@@ -1,0 +1,12 @@
+.navbar {
+    display: block;
+    background-color: blue;
+}
+.navbar_bgc {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10;
+    background-color: red;
+    min-width: 500;
+    min-height: 30;
+}
