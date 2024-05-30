@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color:burlywood;
+}
+
+nav {
+    display: flex;
+}
+
+input {
+    font-size: 1em;
+    height: 1.2em;
+    margin: auto;
+}
+
+.navbar-auth {
+display: flex;
+}
+
+.navbar-search {
+    margin: auto;
+}
+
+.navbar-buttons {
+    display: flex;
+}
+
+.navbar-buttons button {
+    margin: auto;
+    font-family: inherit;
+}
+
+.navbar-auth img{
+    width: 1.5em;
+    border: 5px dashed greenyellow;
+    border-radius: 1em;
+    border-width: 5px 3px;
+    margin-left: 5px;
+}

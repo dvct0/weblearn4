@@ -1,19 +1,6 @@
 <?php
 $pageTitle = 'Test page';
+require ('header.php');
+
+require ('footer.php');
 ?>
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>
-        <?= $pageTitle; ?>
-        <meta charset="utf-8">
-    </title>
-    
-</head>
-
-<body>
-    <?php include ('components/navbar/navbar.php'); ?>
-</body>
-
-</html>
